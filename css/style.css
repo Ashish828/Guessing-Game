@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+.heading{
+    text-align: center;
+    margin-top: 1%;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+}
+label{
+    text-transform: capitalize;
+    font-size: 150%;
+    margin-top: 3%;
+}
+input{
+    text-align: center;
+    width: 50%;
+}
+#submit{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 120%;
+    background-color: transparent;
+    border-radius: 4px;
+    transition: background-color ease-in-out 0.4s , color ease-in-out 0.4s  ;
+}
+
+#submit:hover{
+    background-color: #2f3640;
+    color: white;
+}
+.message{
+    font-size: 150%;
+    margin-top: 3%;
+    text-align: center;
+    text-transform: capitalize;
+}
